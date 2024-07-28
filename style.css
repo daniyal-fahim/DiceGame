@@ -1,0 +1,40 @@
+body{
+    background-color: #352F44;
+    height: 100vh;
+    width: 100vw;
+    color:#B9B4C7;
+    font-family: "Cursive" "fantasy";
+}
+body>h1{
+    font-size: 5REM;
+
+    text-align: center;
+}
+body>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    color:#5C5470;
+}
+#play{
+    
+    padding: 10px;
+    border:1px solid green;
+    margin: 5px;
+    font-size: 2rem;
+    background-color: lightseagreen;
+}
+button:hover {
+    background-color: #f0f0f0; /* Change to your desired color */
+  }
+  
+#play1{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    font-weight: bolder;
+    text-align: right;
+}
